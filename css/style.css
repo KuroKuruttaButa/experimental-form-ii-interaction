@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: 'RubikDirt';
+    src: url("../fonts/RubikDirt-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'MPLUS2';
+    src: url("../fonts/MPLUS2-VariableFont_wght.ttf");
+}
+
+.title-left { /* OCAD Universtiy */
+    font-family: 'RubikDirt';
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    font-optical-sizing: auto;
+
+    top: 2%;
+    left: 2%;
+}
+
+.title-center { /* Research Talks */
+    font-family: 'RubikDirt';
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-optical-sizing: auto;
+    position: absolute;
+
+    top: 2%;
+    left: 44%;
+}
+
+.title-right { /* Spring 2026 Lecture Series */
+    font-family: 'RubikDirt';
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    font-optical-sizing: auto;
+    position: absolute;
+
+    top: 2%;
+    right: 2%;
+}
+
+h1 { /* Research Talks: Vanessa Dion Fletcher, Kelsey Pugh & Anna Stielau */
+    font-family: 'MPLUS2';
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    font-optical-sizing: auto;
+
+    top: 20%;
+    left: 3%;
+    z-index: +1;
+}
+
+h2 { /* Faculty of Arts and Science..... */
+    font-family: 'MPLUS2';
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    font-optical-sizing: auto;
+
+    top: 27%;
+    left: 3%;
+    z-index: +1;
+}
+
+.info-event { /* Date, Location, Time, Room */
+    font-family: 'MPLUS2';
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    font-optical-sizing: auto;
+
+    top: 20%;
+    right: 3%;
+    line-height: 140%;
+    z-index: +1;
+}
+
+#grid-space {
+    border: hidden;
+    width: 90%;
+    height: 100%;
+    /* margin-top: -12%; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.speaker1 {
+    background-color: #94d2bd;
+    height: 88%;
+    width: 100%;
+
+    border: 2px solid #14213d;
+    position: relative;
+    
+    top: 40ch;
+    left: 5ch;
+}
+
+/* /* #vanessa-dion-fletcher{
+    border: 2px solid #14213d;
+} */
+
+.speaker2 {
+    background-color: #e5e5e5;
+    height: 75%;
+    width: 100%;
+
+    border: 2px solid #14213d;
+    position: relative;
+    
+    top: 40ch;
+    left: 10ch;
+}
+
+.speaker3 {
+    background-color: #e7b52b;
+    height: 70%;
+    width: 100%;
+
+    border: 2px solid #14213d;
+    position: relative;
+    
+    top: 40ch;
+    left: 15ch;
+}
+
+h3 {
+    font-family: 'MPLUS2';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    font-optical-sizing: auto;
+    display: flex;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'MPLUS2';
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    font-optical-sizing: auto;
+    display: flex;
+    padding: 5px 20px;
+}
+
+p {
+    font-family: 'MPLUS2';
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    font-optical-sizing: auto;
+    display: flex;
+    padding: 5px 20px;
+}
+
+.external_links {
+    font-family: 'MPLUS2';
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    font-optical-sizing: auto;
+    display: flex;
+    padding: 5px 20px;
+}
+
+script {
+    display: none;
+}
+
+.cursor {
+  background:rgb(139, 104, 104);
+  width:200px;
+  height:200px;
+  cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+}
