@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
 }
 
 @font-face {
@@ -36,7 +35,7 @@
     position: absolute;
 
     top: 2%;
-    left: 44%;
+    left: 40%;
 }
 
 .title-right { /* Spring 2026 Lecture Series */
@@ -59,7 +58,7 @@ h1 { /* Research Talks: Vanessa Dion Fletcher, Kelsey Pugh & Anna Stielau */
     position: absolute;
     font-optical-sizing: auto;
 
-    top: 20%;
+    top: 17%;
     left: 3%;
     z-index: +1;
 }
@@ -71,7 +70,7 @@ h2 { /* Faculty of Arts and Science..... */
     position: absolute;
     font-optical-sizing: auto;
 
-    top: 27%;
+    top: 23%;
     left: 3%;
     z-index: +1;
 }
@@ -83,63 +82,65 @@ h2 { /* Faculty of Arts and Science..... */
     position: absolute;
     font-optical-sizing: auto;
 
-    top: 20%;
+    top: 18%;
     right: 3%;
     line-height: 140%;
     z-index: +1;
 }
 
 #grid-space {
-    border: hidden;
-    width: 90%;
-    height: 100%;
-    /* margin-top: -12%; */
+    width: 100%;
+    height: 70%;
 
+    background-color: #edede9;
+    border-radius: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    min-height: fit-content;
+    position: relative;
+
+    top: 34%;
+    overflow-x: hidden;
+    cursor: move;
 }
 
 .speaker1 {
-    background-color: #94d2bd;
-    height: 88%;
-    width: 100%;
-
-    border: 2px solid #14213d;
+    background-color: #e9edc9;
+    height: 90%;
+   
+    border-radius: 2rem;
+    /* border: 2px solid #14213d; */
     position: relative;
-    
-    top: 40ch;
-    left: 5ch;
+    margin: 10%;
+
+    box-shadow: 0px 5px 35px 3px #ccd5ae;
 }
 
-/* /* #vanessa-dion-fletcher{
-    border: 2px solid #14213d;
-} */
-
 .speaker2 {
-    background-color: #e5e5e5;
-    height: 75%;
-    width: 100%;
+    background-color: #ffd29d;
+    height: 72%;
 
-    border: 2px solid #14213d;
+    border-radius: 2rem;
+    /* border: 2px solid #14213d; */
     position: relative;
-    
-    top: 40ch;
-    left: 10ch;
+    margin: 10%;
+
+    box-shadow: 0px 5px 35px 3px #ffb563;
 }
 
 .speaker3 {
-    background-color: #e7b52b;
-    height: 70%;
-    width: 100%;
+    background-color: #7ebdc2;
+    height: 67%;
 
-    border: 2px solid #14213d;
+    border-radius: 2rem;
+    /* border: 2px solid #14213d; */
     position: relative;
-    
-    top: 40ch;
-    left: 15ch;
+    margin: 10%;
+
+    box-shadow: 0px 5px 30px 3px #7ebdc2;
 }
 
-h3 {
+h3 { 
     font-family: 'MPLUS2';
     font-size: 20px;
     font-weight: 700;
@@ -181,11 +182,4 @@ p {
 
 script {
     display: none;
-}
-
-.cursor {
-  background:rgb(139, 104, 104);
-  width:200px;
-  height:200px;
-  cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
 }
